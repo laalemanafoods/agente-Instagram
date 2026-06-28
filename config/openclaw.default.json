@@ -1,0 +1,38 @@
+{
+  "gateway": {
+    "controlUi": {
+      "allowedOrigins": ["*"]
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "gemini-1.5-flash"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": {
+          "primary": "gemini-1.5-flash"
+        }
+      }
+    ]
+  },
+  "models": {
+    "providers": {
+      "google": {
+        "api": "openai-completions",
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/v1",
+        "apiKey": "${GEMINI_API_KEY}",
+        "models": [
+          {
+            "id": "gemini-1.5-flash",
+            "name": "Gemini 1.5 Flash",
+            "api": "openai-completions"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "tienda_online": "",
+  "puntos": [
+    {
+      "nombre": "Benavidez",
+      "ciudad": "Buenos Aires",
+      "barrio": "Palermo",
+      "direccion": "R. Árabe Siria 3002",
+      "instagram": "@fiambreriabenavidez"
+    },
+    {
+      "nombre": "L'Artigiano",
+      "ciudad": "Buenos Aires",
+      "barrio": "Palermo",
+      "direccion": "Billinghurst 1772",
+      "instagram": "@lartigiano.palermo"
+    },
+    {
+      "nombre": "Mancheese",
+      "ciudad": "Buenos Aires",
+      "barrio": "Palermo",
+      "direccion": "Av. Scalabrini Ortiz 2002",
+      "instagram": "@mancheese.palermo"
+    },
+    {
+      "nombre": "Nicolino",
+      "ciudad": "Buenos Aires",
+      "barrio": "Belgrano",
+      "direccion": "Zabala 1655 / Arcos 2181",
+      "instagram": "@nicolinosalumeria"
+    },
+    {
+      "nombre": "Delicatto",
+      "ciudad": "Buenos Aires",
+      "barrio": "Recoleta",
+      "direccion": "Ayacucho 1206",
+      "instagram": "@delicattofiambres"
+    },
+    {
+      "nombre": "La Tradicional",
+      "ciudad": "Buenos Aires",
+      "barrio": "Recoleta",
+      "direccion": "Charcas 2761",
+      "instagram": "@latradicionalok"
+    },
+    {
+      "nombre": "Singluteria",
+      "ciudad": "Buenos Aires",
+      "barrio": "Centro",
+      "direccion": "Piedras 328",
+      "instagram": "@singluteria.monserrat"
+    },
+    {
+      "nombre": "Proviamo",
+      "ciudad": "Buenos Aires",
+      "barrio": "Centro",
+      "direccion": "Maipú 867 (Retiro) / Maipú 384 (Microcentro)",
+      "instagram": "@proviamo.almacengourmet"
+    },
+    {
+      "nombre": "Sin Gluten Olivos",
+      "ciudad": "Olivos",
+      "barrio": "Zona Norte",
+      "direccion": "Av. Maipú 1779",
+      "instagram": "@singlutenolivosbaires"
+    },
+    {
+      "nombre": "Salumeria Montevideo",
+      "ciudad": "Rosario",
+      "direccion": "Montevideo 1364",
+      "instagram": "@salumeria.hnos"
+    },
+    {
+      "nombre": "JULIÁ",
+      "ciudad": "Funes",
+      "direccion": "Juan Bautista Alberdi 2700",
+      "instagram": "@fiambreriajulia"
+    },
+    {
+      "nombre": "Mercado de Sabores",
+      "ciudad": "Neuquén",
+      "barrio": "Alto Comahue",
+      "instagram": "@mercadodesaloresnqn"
+    },
+    {
+      "nombre": "Cerutti",
+      "ciudad": "Río Cuarto",
+      "direccion": "Moreno 1503",
+      "instagram": "@ceruttisocial"
+    },
+    {
+      "nombre": "La Familia",
+      "ciudad": "Río Cuarto",
+      "direccion": "Moreno 545",
+      "instagram": "@lafamiliafiambreria"
+    },
+    {
+      "nombre": "Al Dente",
+      "ciudad": "Río Cuarto",
+      "barrio": "Banda Norte",
+      "direccion": "Fray Quirico Porreca 547",
+      "instagram": "@aldenteriocuarto"
+    },
+    {
+      "nombre": "Espacio Gourmet",
+      "ciudad": "Río Cuarto",
+      "direccion": "San Martín 154",
+      "instagram": "@espaciogourmetrio4"
+    },
+    {
+      "nombre": "Mr. Provolone",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "9 de Julio 524",
+      "instagram": "@mr.provolonecba"
+    },
+    {
+      "nombre": "Fiambrería 690",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Av. Marcelo T. de Alvear 716"
+    },
+    {
+      "nombre": "Fiambrería Feta",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Obispo Trejo 910",
+      "instagram": "@fiambreriafeta"
+    },
+    {
+      "nombre": "Il Carmelo",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Duarte Quirós 291",
+      "instagram": "@ilcarmeloficial"
+    },
+    {
+      "nombre": "Almacén de Mario (Centro)",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Dean Funes 163 (Paseo Sta. Catalina)",
+      "instagram": "@almacendemario"
+    },
+    {
+      "nombre": "Almacén de Mario (Lavalleja)",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Lavalleja 43",
+      "instagram": "@almacendemario"
+    },
+    {
+      "nombre": "Casa Savia",
+      "ciudad": "Córdoba",
+      "barrio": "Centro",
+      "direccion": "Balcarce 420",
+      "instagram": "@casasavia.cba"
+    },
+    {
+      "nombre": "La Q Sería",
+      "ciudad": "Córdoba",
+      "barrio": "General Paz",
+      "direccion": "Oncativo 1390",
+      "instagram": "@la_qseria"
+    },
+    {
+      "nombre": "Boro Casa Gourmet",
+      "ciudad": "Córdoba",
+      "barrio": "General Paz",
+      "direccion": "Félix Frías 134, Local 3",
+      "instagram": "@borocasagourmet"
+    },
+    {
+      "nombre": "Gente Amiga",
+      "ciudad": "Córdoba",
+      "barrio": "General Paz",
+      "direccion": "Av. 24 de Septiembre 1989",
+      "instagram": "@genteamigadistribuidora"
+    },
+    {
+      "nombre": "Jabugo",
+      "ciudad": "Córdoba",
+      "barrio": "Cerro",
+      "direccion": "Av. Rafael Núñez 4580",
+      "instagram": "@jabugo_almacen_gourmet"
+    },
+    {
+      "nombre": "Almacén de Mario",
+      "ciudad": "Córdoba",
+      "barrio": "Cerro",
+      "direccion": "Gauss y Blas Pascal",
+      "instagram": "@almacendemario"
+    },
+    {
+      "nombre": "Gruyere 2",
+      "ciudad": "Córdoba",
+      "barrio": "Zona Sur",
+      "direccion": "Colinas de Manantiales, Mz 69 Lote 6"
+    },
+    {
+      "nombre": "Pueblo Serrano",
+      "ciudad": "Villa Allende",
+      "barrio": "Villa Allende",
+      "direccion": "Av. Río de Janeiro 657",
+      "instagram": "@puebloserrano.va"
+    }
+  ]
+}

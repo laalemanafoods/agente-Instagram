@@ -1,0 +1,79 @@
+Instance created. Preparing to start...
+Starting download for registry01.prod.koyeb.com/k-562b7145-6ab9-4729-b645-f7b5e8e78e7d/bb972e63-a84f-4793-b0c2-548fc94a2f01:c418445c-9b93-4092-8085-a5b689e6b29c
+Instance created. Preparing to start...
+Starting download for registry01.prod.koyeb.com/k-562b7145-6ab9-4729-b645-f7b5e8e78e7d/bb972e63-a84f-4793-b0c2-548fc94a2f01:c418445c-9b93-4092-8085-a5b689e6b29c
+Download progress:  13% |[32m+[0m-------| (14.7 MiB/s)
+Download progress: 100% |[32m++++++++[0m| (101.2 MiB/s)
+Download complete for registry01.prod.koyeb.com/k-562b7145-6ab9-4729-b645-f7b5e8e78e7d/bb972e63-a84f-4793-b0c2-548fc94a2f01:c418445c-9b93-4092-8085-a5b689e6b29c
+Download progress: 100% |[32m++++++++[0m| (17.1 MiB/s)
+2026-05-07T13:38:08.688+00:00 [gateway] loading configuration…
+2026-05-07T13:38:08.708+00:00 [gateway] resolving authentication…
+2026-05-07T13:38:08.710+00:00 [gateway] starting...
+Instance is starting... Waiting for health checks to pass.
+2026-05-07T13:38:11.288+00:00 Config overwrite: /app/data/openclaw.json (sha256 0f1be7230bdadf9778f43ab08b8b90988ced92211a58440f658e08f93b94034b -> 45988092ee7f6aa675c087f617d73c6f98c230a6dc3b78db662fc544096b9dfc, backup=/app/data/openclaw.json.bak, changedPaths=10)
+2026-05-07T13:38:11.291+00:00 Config write anomaly: /app/data/openclaw.json (missing-meta-before-write)
+2026-05-07T13:38:11.554+00:00 [gateway] auto-enabled plugins:
+- gpt-4o-mini model configured, enabled automatically.
+2026-05-07T13:38:11.821+00:00 Config overwrite: /app/data/openclaw.json (sha256 45988092ee7f6aa675c087f617d73c6f98c230a6dc3b78db662fc544096b9dfc -> adbff004f811af90c2f3e76f0d295f9328301cc7278871e4b7624000ad101b5b, backup=/app/data/openclaw.json.bak, changedPaths=1)
+2026-05-07T13:38:11.911+00:00 [gateway] auth token was missing. Generated a new token and saved it to config (gateway.auth.token).
+2026-05-07T13:38:12.323+00:00 [gateway] [plugins] staging bundled runtime deps before gateway startup (11 missing, 11 install specs): @homebridge/ciao@^1.3.6, @modelcontextprotocol/sdk@1.29.0, acpx@0.6.1, chokidar@^5.0.0, commander@^14.0.3, express@5.2.1, playwright-core@1.59.1, tslog@^4.10.2, typebox@1.1.33, undici@8.1.0, ws@^8.20.0
+2026-05-07T13:38:21.474+00:00 [gateway] [plugins] installed bundled runtime deps before gateway startup in 9152ms: @homebridge/ciao@^1.3.6, @modelcontextprotocol/sdk@1.29.0, acpx@0.6.1, chokidar@^5.0.0, commander@^14.0.3, express@5.2.1, playwright-core@1.59.1, tslog@^4.10.2, typebox@1.1.33, undici@8.1.0, ws@^8.20.0
+Download complete for registry01.prod.koyeb.com/k-562b7145-6ab9-4729-b645-f7b5e8e78e7d/bb972e63-a84f-4793-b0c2-548fc94a2f01:c418445c-9b93-4092-8085-a5b689e6b29c
+2026-05-07T13:38:23.802+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID
+2026-05-07T13:38:24.478+00:00 [gateway] starting HTTP server...
+2026-05-07T13:38:24.482+00:00 [canvas] host mounted at http://0.0.0.0:18789/__openclaw__/canvas/ (root /app/data/canvas)
+2026-05-07T13:38:24.483+00:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-05-07T13:38:24.944+00:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-07T13:38:25.247+00:00 [gateway] agent model: openai/gpt-4o-mini
+2026-05-07T13:38:25.248+00:00 [gateway] http server listening (8 plugins: acpx, bonjour, browser, device-pair, instagram, memory-core, phone-control, talk-voice; 16.5s)
+2026-05-07T13:38:25.249+00:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-07.log
+2026-05-07T13:38:25.340+00:00 [gateway] starting channels and sidecars...
+2026-05-07T13:38:28.537+00:00 [gateway] loading configuration…
+Instance is healthy. All health checks are passing.
+2026-05-07T13:38:28.570+00:00 [gateway] resolving authentication…
+2026-05-07T13:38:28.572+00:00 [gateway] starting...
+2026-05-07T13:38:33.096+00:00 Config overwrite: /app/data/openclaw.json (sha256 0f1be7230bdadf9778f43ab08b8b90988ced92211a58440f658e08f93b94034b -> e61efa132e7b44fa112849c307bd589ad472d785af569dcd0d18bb11d2c50b3d, backup=/app/data/openclaw.json.bak, changedPaths=10)
+2026-05-07T13:38:33.101+00:00 Config write anomaly: /app/data/openclaw.json (missing-meta-before-write)
+2026-05-07T13:38:33.383+00:00 [gateway] auto-enabled plugins:
+- gpt-4o-mini model configured, enabled automatically.
+Instance is starting... Waiting for health checks to pass.
+2026-05-07T13:38:34.036+00:00 Config overwrite: /app/data/openclaw.json (sha256 e61efa132e7b44fa112849c307bd589ad472d785af569dcd0d18bb11d2c50b3d -> d0753090963671f905d3282f86cb677b3550370882f6ee011d0a73143dc35f67, backup=/app/data/openclaw.json.bak, changedPaths=1)
+2026-05-07T13:38:34.404+00:00 [gateway] auth token was missing. Generated a new token and saved it to config (gateway.auth.token).
+2026-05-07T13:38:35.153+00:00 [gateway] [plugins] staging bundled runtime deps before gateway startup (11 missing, 11 install specs): @homebridge/ciao@^1.3.6, @modelcontextprotocol/sdk@1.29.0, acpx@0.6.1, chokidar@^5.0.0, commander@^14.0.3, express@5.2.1, playwright-core@1.59.1, tslog@^4.10.2, typebox@1.1.33, undici@8.1.0, ws@^8.20.0
+2026-05-07T13:38:46.788+00:00 [gateway] [plugins] installed bundled runtime deps before gateway startup in 11634ms: @homebridge/ciao@^1.3.6, @modelcontextprotocol/sdk@1.29.0, acpx@0.6.1, chokidar@^5.0.0, commander@^14.0.3, express@5.2.1, playwright-core@1.59.1, tslog@^4.10.2, typebox@1.1.33, undici@8.1.0, ws@^8.20.0
+2026-05-07T13:38:51.369+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID
+2026-05-07T13:38:51.576+00:00 [plugins] bonjour: watchdog detected non-announced service; attempting re-advertise (gateway fqdn=9cc9ce6d (OpenClaw)._openclaw-gw._tcp.local. host=9cc9ce6d.local. port=18789 state=probing)
+2026-05-07T13:38:51.849+00:00 [plugins] bonjour: advertised gateway fqdn=9cc9ce6d (OpenClaw)._openclaw-gw._tcp.local. host=9cc9ce6d.local. port=18789 state=announcing
+2026-05-07T13:38:51.907+00:00 [gateway] update available (latest): v2026.5.6 (current v2026.4.26). Run: openclaw update
+2026-05-07T13:38:52.390+00:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-05-07T13:38:52.382+00:00 [gateway] starting HTTP server...
+2026-05-07T13:38:52.388+00:00 [canvas] host mounted at http://0.0.0.0:18789/__openclaw__/canvas/ (root /app/data/canvas)
+2026-05-07T13:38:53.102+00:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-07T13:38:53.569+00:00 [gateway] agent model: openai/gpt-4o-mini
+2026-05-07T13:38:53.571+00:00 [gateway] http server listening (8 plugins: acpx, bonjour, browser, device-pair, instagram, memory-core, phone-control, talk-voice; 25.0s)
+2026-05-07T13:38:53.572+00:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-07.log
+2026-05-07T13:38:53.760+00:00 [gateway] starting channels and sidecars...
+Instance is healthy. All health checks are passing.
+2026-05-07T13:39:29.558+00:00 [plugins] bonjour: restarting advertiser (service stuck in announcing for 37976ms (gateway fqdn=9cc9ce6d (OpenClaw)._openclaw-gw._tcp.local. host=9cc9ce6d.local. port=18789 state=announcing))
+2026-05-07T13:39:30.160+00:00 [plugins] embedded acpx runtime backend registered (cwd: /app/data/.openclaw/workspace)
+2026-05-07T13:39:30.460+00:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-05-07T13:39:30.478+00:00 [gateway] ready
+2026-05-07T13:39:30.482+00:00 [heartbeat] started
+2026-05-07T13:39:31.216+00:00 [plugins] bonjour: advertised gateway fqdn=9cc9ce6d (OpenClaw)._openclaw-gw._tcp.local. host=9cc9ce6d.local. port=18789 state=announcing
+2026-05-07T13:39:35.850+00:00 [plugins] bonjour: watchdog detected non-announced service; attempting re-advertise (gateway fqdn=15d647d1 (OpenClaw)._openclaw-gw._tcp.local. host=15d647d1.local. port=18789 state=probing)
+2026-05-07T13:39:36.205+00:00 [plugins] bonjour: advertised gateway fqdn=15d647d1 (OpenClaw)._openclaw-gw._tcp.local. host=15d647d1.local. port=18789 state=announcing
+2026-05-07T13:39:36.477+00:00 [gateway] update available (latest): v2026.5.6 (current v2026.4.26). Run: openclaw update
+2026-05-07T13:40:35.764+00:00 [plugins] embedded acpx runtime backend registered (cwd: /app/data/.openclaw/workspace)
+2026-05-07T13:40:36.891+00:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-05-07T13:40:36.922+00:00 [gateway] ready
+2026-05-07T13:40:36.931+00:00 [heartbeat] started
+2026-05-07T13:44:08.298+00:00 [plugins] document-extract staging bundled runtime deps (1 missing, 29 install specs): pdfjs-dist@^5.6.205
+2026-05-07T13:44:13.778+00:00 [plugins] document-extract installed bundled runtime deps in 5481ms: pdfjs-dist@^5.6.205
+2026-05-07T13:44:17.406+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID
+2026-05-07T13:44:19.490+00:00 [plugins] microsoft staging bundled runtime deps (1 missing, 30 install specs): node-edge-tts@^1.2.10
+2026-05-07T13:44:22.333+00:00 [plugins] microsoft installed bundled runtime deps in 2843ms: node-edge-tts@^1.2.10
+2026-05-07T13:44:37.770+00:00 [plugins] web-readability staging bundled runtime deps (2 missing, 35 install specs): @mozilla/readability@^0.6.0, linkedom@^0.18.12
+2026-05-07T13:44:41.866+00:00 [plugins] web-readability installed bundled runtime deps in 4096ms: @mozilla/readability@^0.6.0, linkedom@^0.18.12
+2026-05-07T13:45:17.578+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID
+2026-05-07T13:45:45.777+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID
+2026-05-07T13:46:15.587+00:00 [plugins] [instagram] Webhook registrado en /plugins/instagram/webhook. Variables: INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID, INSTAGRAM_VERIFY_TOKEN, IG_TELEGRAM_BOT_TOKEN, IG_TELEGRAM_CHAT_ID, INSTAGRAM_TEST_MODE, INSTAGRAM_TEST_SENDER_ID

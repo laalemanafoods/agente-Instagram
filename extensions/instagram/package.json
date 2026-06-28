@@ -1,0 +1,18 @@
+{
+  "name": "@openclaw/instagram",
+  "version": "2026.4.28",
+  "private": true,
+  "description": "OpenClaw Instagram DM routing plugin — La Alemana Foods",
+  "type": "module",
+  "devDependencies": {
+    "@openclaw/plugin-sdk": "workspace:*"
+  },
+  "openclaw": {
+    "bundle": {
+      "stageRuntimeDependencies": true
+    },
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

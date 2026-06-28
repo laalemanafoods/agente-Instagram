@@ -1,0 +1,38 @@
+Instance created. Preparing to start...
+Config invalid
+File: $OPENCLAW_HOME/openclaw.json
+Problem:
+  - models.providers.google.baseUrl: Invalid input: expected string, received undefined
+  - models.providers.google.models: Invalid input: expected array, received undefined
+
+Run: openclaw doctor --fix
+Application exited with code 1. This usually indicates an application failure. Check that the command used to launch your application is correct.
+Instance is starting... Waiting for health checks to pass.
+Application exited with code 1. This usually indicates an application failure. Check that the command used to launch your application is correct.
+Config invalid
+File: $OPENCLAW_HOME/openclaw.json
+Problem:
+  - models.providers.google.baseUrl: Invalid input: expected string, received undefined
+  - models.providers.google.models: Invalid input: expected array, received undefined
+
+Run: openclaw doctor --fix
+Instance stopped.
+Instance created. Preparing to start...
+Instance is starting... Waiting for health checks to pass.
+Config invalid
+File: $OPENCLAW_HOME/openclaw.json
+Problem:
+  - models.providers.google.baseUrl: Invalid input: expected string, received undefined
+  - models.providers.google.models: Invalid input: expected array, received undefined
+
+Run: openclaw doctor --fix
+Application exited with code 1. This usually indicates an application failure. Check that the command used to launch your application is correct.
+Config invalid
+File: $OPENCLAW_HOME/openclaw.json
+Problem:
+  - models.providers.google.baseUrl: Invalid input: expected string, received undefined
+  - models.providers.google.models: Invalid input: expected array, received undefined
+
+Run: openclaw doctor --fix
+Application exited with code 1. This usually indicates an application failure. Check that the command used to launch your application is correct.
+Instance stopped.

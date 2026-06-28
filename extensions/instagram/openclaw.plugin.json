@@ -1,0 +1,19 @@
+{
+  "id": "instagram",
+  "name": "Instagram DM Router",
+  "description": "Clasifica mensajes de Instagram DM en segmentos (B2B, Consumidor, Quejas, Vendedores) y envía notificaciones a Telegram. Para La Alemana Foods.",
+  "enabledByDefault": true,
+  "startup": {
+    "sidecar": true
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "webhookPath": {
+        "type": "string",
+        "description": "Ruta HTTP para recibir webhooks de Instagram (default: /plugins/instagram/webhook)"
+      }
+    }
+  }
+}
