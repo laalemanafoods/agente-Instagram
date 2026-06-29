@@ -26,7 +26,7 @@ WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
 COPY openclaw.mjs ./
 COPY patches ./patches
-COPY ui/package.json ./ui/package.json
+# COPY ui/package.json ./ui/package.json
 COPY scripts/postinstall-bundled-plugins.mjs \
      scripts/preinstall-package-manager-warning.mjs \
      scripts/npm-runner.mjs \
@@ -48,7 +48,7 @@ RUN pnpm canvas:a2ui:bundle || \
      rm -rf vendor/a2ui apps/shared/OpenClawKit/Tools/CanvasA2UI)
 RUN pnpm build:docker
 ENV OPENCLAW_PREFER_PNPM=1
-RUN pnpm ui:build
+# RUN pnpm ui:build
 RUN pnpm qa:lab:build
 
 # ── Stage 2: Prune dev deps ─────────────────────────────────────────────────
