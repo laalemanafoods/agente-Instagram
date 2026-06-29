@@ -94,8 +94,8 @@ COPY --from=runtime-assets --chown=node:node /app/patches ./patches
 COPY --from=runtime-assets --chown=node:node /app/openclaw.mjs .
 COPY --from=runtime-assets --chown=node:node /app/extensions ./extensions
 COPY --from=runtime-assets --chown=node:node /app/skills ./skills
-COPY --from=runtime-assets --chown=node:node /app/docs ./docs
-COPY --from=runtime-assets --chown=node:node /app/qa ./qa
+# COPY --from=runtime-assets --chown=node:node /app/docs ./docs
+# COPY --from=runtime-assets --chown=node:node /app/qa ./qa
 COPY --from=runtime-assets --chown=node:node /app/conocimiento ./conocimiento
 COPY --from=runtime-assets --chown=node:node /app/config ./config
 COPY --from=runtime-assets --chown=node:node /app/data/plugin-runtime-deps /app/data/plugin-runtime-deps
