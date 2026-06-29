@@ -18,6 +18,11 @@ const TEST_ENV_VARS = [
   "INSTAGRAM_TEST_SENDER_ID", // PSID del usuario nikigummlich
 ] as const;
 
+// Variables de IA (opcionales — activan respuestas Gemini para consultas sin patrón claro).
+const AI_ENV_VARS = [
+  "GEMINI_API_KEY", // Google AI Studio — gemini-1.5-flash, plan gratuito
+] as const;
+
 function validateEnvVars(api: OpenClawPluginApi): void {
   const missing = REQUIRED_ENV_VARS.filter((v) => !process.env[v]?.trim());
   if (missing.length > 0) {
@@ -37,6 +42,11 @@ function validateEnvVars(api: OpenClawPluginApi): void {
         (hasSenderId ? " | remitente autorizado configurado" : " | INSTAGRAM_TEST_SENDER_ID no configurado"),
     );
   }
+
+  const hasGemini = Boolean(process.env["GEMINI_API_KEY"]?.trim());
+  api.logger.info?.(
+    `[instagram] Proveedor IA: ${hasGemini ? "Gemini 1.5 Flash (Google AI Studio)" : "fallback fijo — GEMINI_API_KEY no configurada"}`,
+  );
 }
 
 export default definePluginEntry({
@@ -63,7 +73,7 @@ export default definePluginEntry({
 
     api.logger.info?.(
       `[instagram] Webhook registrado en ${webhookPath}. ` +
-        `Variables: ${[...REQUIRED_ENV_VARS, ...TEST_ENV_VARS].join(", ")}`,
+        `Variables: ${[...REQUIRED_ENV_VARS, ...TEST_ENV_VARS, ...AI_ENV_VARS].join(", ")}`,
     );
   },
 });

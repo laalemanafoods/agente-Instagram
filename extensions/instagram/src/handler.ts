@@ -3,6 +3,7 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { classifyMessage } from "./classifier.js";
 import { processCommentChange, type CommentChangeValue } from "./comment-handler.js";
+import { generateGeminiReply } from "./gemini.js";
 import { sendInstagramReply, fetchInstagramUsername } from "./instagram-api.js";
 import {
   findByBarrioOnly,
@@ -849,8 +850,12 @@ async function handleMessage(senderId: string, text: string): Promise<void> {
         } else if (askingAboutWhatsAppOrShipping(text)) {
           await sendInstagramReply({ recipientId: senderId, text: RESPONSES.consumer.whatsappPolicy() });
         } else {
-          // Consulta sin intención de compra explícita — NO pedir ubicación todavía
-          await sendInstagramReply({ recipientId: senderId, text: RESPONSES.consumer.askHowToHelp() });
+          // Intención poco clara — usar Gemini 1.5 Flash para respuesta contextual
+          const geminiReply = await generateGeminiReply(text);
+          await sendInstagramReply({
+            recipientId: senderId,
+            text: geminiReply ?? RESPONSES.consumer.askHowToHelp(),
+          });
         }
       }
       break;
